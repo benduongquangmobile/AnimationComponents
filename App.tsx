@@ -3,6 +3,8 @@ import 'react-native-gesture-handler';
 // import BottomSheet from './src/BottomSheet';
 import {View, StyleSheet} from 'react-native';
 import Slider from './src/apple-bedtime/Slider';
+import Dropdown from './src/Dropdown';
+import {RadioButton} from './src/CheckBox';
 // import SimulationCard from './src/SimulationCard';
 // import {faker} from '@faker-js/faker';
 
@@ -19,6 +21,9 @@ const App = () => {
       {/* {data.map((item, index) => (
         <SimulationCard key={item.id} data={item} index={index} />
       ))} */}
+      {/* <Slider /> */}
+      {/* <Dropdown /> */}
+      <RadioButton options={[1, 2, 3]} />
     </View>
   );
 };
